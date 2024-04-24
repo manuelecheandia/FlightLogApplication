@@ -1,0 +1,6 @@
+com\flightlog\websocket\FlightLogDecoder.class
+com\flightlog\model\FlightLogEntry.class
+com\nbcc\flightlogapplication\resources\JakartaEE10Resource.class
+com\flightlog\websocket\FlightLogEndPoint.class
+com\nbcc\flightlogapplication\JakartaRestConfiguration.class
+com\flightlog\websocket\FlightLogEncoder.class

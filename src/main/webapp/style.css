@@ -1,0 +1,101 @@
+html, body, div, table, tr, td, textarea, input, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+td {
+    padding: 10px;
+}
+
+input[type="text"], input[type="date"], input[type="number"], textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+}
+
+input[type="date"], input[type="number"] {
+    width: auto;
+}
+
+textarea {
+    resize: none; 
+    height: 100px;
+}
+
+button {
+    background-color: #0056b3; /* A more professional-looking blue */
+    color: white; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #004494;
+}
+
+.error-message {
+    width: 100%;
+    margin: 20px 0;
+    text-align: center;
+    background-color: #f8d7da; 
+    color: #721c24; 
+    padding: 10px; 
+    border-radius: 5px; 
+}
+
+#chatLog, #notes {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 600px) {
+    .container {
+        margin: 20px;
+        padding: 10px;
+    }
+
+    input[type="text"], input[type="date"], input[type="number"], textarea, button {
+        width: 100%;
+    }
+
+    input[type="date"], input[type="number"] {
+        width: 100%;
+    }
+}
